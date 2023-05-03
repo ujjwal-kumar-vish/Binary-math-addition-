@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to play</title>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+        }
+        
+        html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 50%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          margin: 8px;
+        }
+        
+        .about-section {
+          padding: 50px;
+          text-align: center;
+          background-color: #474e5d;
+          color: white;
+        }
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: grey;
+        }
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+        </style>
+</head>
+<body>
+    <div class="about-section">
+        <h1>How to play</h1>
+        <p>Follow the following information to under stand the game</p>
+        <p></p>
+    </div>
+      
+      <h2 style="text-align:center"></h2>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <h2>1. Main Menu</h2>
+            <img src="Screenshot (2)h.png" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2></h2>
+              <p class="title"></p>
+              <p>The main menu has 5 buttons who's function is as following :-</p>
+                <p>1- Start Game</p>
+                <p>.    It starts the game screen</p>
+                <p>2- View Score</p>
+                <p>.    It displays the Score</p>
+                <p>3- How to play</p> 
+                <p>.    It brings you to this page ;)</p>
+                <p>4- About us</p>
+                <p>.    It tells you about us</p> 
+                <p>5- QUIT</p> 
+                <p>.    it turns off the game :(</p>
+
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h2>2. Game Screen</h2>
+              <img src="Screenshot (3)h.png" alt="Jane" style="width:100%">
+              <div class="container">
+                <h2></h2>
+                <p class="title"></p>
+                <p>This is the game screen</p>
+                <p>In the left side there are 4 buttons having the values 1,2,4 and 8 respeactively</p>
+                <p>In the center there is the current binary & Submit button</p>
+                <p>In the green box there is the Objective in "Decimal" form</p>
+                <p>In the bottom part there is :-</p>
+                <p>level which is easy medium hard and extrem</p>
+                <p>Hint</p>
+                <p>score and</p>
+                <P>back which will take you back to the main menu</P>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+                <h2>3. Game Rules</h2>
+              <img src="Screenshot (4)h.png" alt="Jane" style="width:100%">
+              <div class="container">
+                <h2></h2>
+                <p class="title"></p>
+                <p>The player chooses the input via clicking on the given options</p>
+                    
+                <p>The choices are displayed on the 'current binary' screen</p> 
+                <p>After choosing numbers press submit to check</p>
+                <p>The player gains score if the number chosen is equal to the objective no.</p>
+                <p>Computer generates random number in a given range</p>
+                     
+                <p>If enough score is earned level changes as well as range of the computer generated random number</p>
+
+                <p>The hint is there to help players which displays the answer in binary</p> 
+                <p>Hint costs 2 of the score so the player is not encouraged to use it again and again</p>
+                <p>The score is there to count the number of successful answer given and the number of hints taken</p>
+                <p></p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+      
+        <div class="column">
+          <div class="card">
+            <h2>4. Hint</h2>
+            <img src="Screenshot (6)h.png" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2></h2>
+              <p class="title"></p>
+              <p>The hint botton</p>
+              <p>When pressed the score is deducted by 2</p>
+              <p>and a binary is displayed which is the currect answer.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h2>5. Game over screen</h2>
+            <img src="Screenshot (5)h.png" alt="John" style="width:100%">
+            <div class="container">
+              <h2></h2>
+              <p class="title"></p>
+              <p>This display the final score</p>
+              <p>press the Main Menu to return to that screen</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+</body>
+</html>
